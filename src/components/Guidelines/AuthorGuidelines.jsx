@@ -74,17 +74,6 @@ export default function AuthorGuidelines() {
             {announcements.map((announcement, index) => {
               const eventDate = new Date(announcement.date);
               const isHighlighted = eventDate <= currentDate;
-              let isDateHighlighted = isHighlighted;
-
-              if (
-                index === 0 &&
-                !isHighlighted &&
-                announcements.every(
-                  (a, idx) => idx !== 0 && new Date(a.date) > currentDate
-                )
-              ) {
-                isDateHighlighted = true;
-              }
 
               return (
                 <li
