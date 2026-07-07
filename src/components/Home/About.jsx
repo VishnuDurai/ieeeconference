@@ -1,66 +1,66 @@
 import FooterContainer from '../../container/FooterContainer'
-import {useState, useEffect} from 'react'
+import { useState, useEffect } from 'react'
 export default function About() {
 
-    const announcements = [
-        {
-          title: "Call for Papers",
-          date: "2024-11-15",
-          text: "15th December 2024",
-        },
-        {
-          title: "Paper Submission Deadline",
-          date: "2025-04-30",
-          text: "30th April 2025"
-        },
-        {
-          title: "Paper Acceptance Notification",
-          date: "2025-06-30",
-          text: "30th June 2025"
-        },
-        {
-          title: "Camera-ready Paper Submission Deadline",
-          date: "2025-07-31",
-          text: "31st July 2025"
-        },
-        {
-          title: "Early Bird Registration Deadline",
-          date: "2025-08-15",
-          text: "15th August 2025"
-        },
-        {
-          title: "Final Registration Deadline",
-          date: "2025-09-30",
-          text: "30th September 2025"
-        },
-        {
-          title: "Late Fee Registration Deadline",
-          date: "2025-10-10",
-          text: "10th October 2025"
-        },
-        {
-          title: "Pre-conference Tutorials Registration Deadline",
-          date: "2025-11-15",
-          text: "15th November 2025"
-        },
-        {
-          title: "Conference Date",
-          date: "2025-12-11 to 2025-12-13",
-          text: "11th to 13th December 2025"
-        },
-      ];
-    
-      const [currentDate, setCurrentDate] = useState(new Date());
-    
-      useEffect(() => {
-        const timer = setInterval(() => {
-          setCurrentDate(new Date());
-        }, 1000 * 60 * 60 * 24); 
-    
-        return () => clearInterval(timer);
-      }, []);
-    
-    
+  const announcements = [
+    {
+      title: "Call for Papers",
+      date: "2026-11-15",
+      text: "15th December 2026",
+    },
+    {
+      title: "Paper Submission Deadline",
+      date: "2027-04-30",
+      text: "30th April 2027"
+    },
+    {
+      title: "Paper Acceptance Notification",
+      date: "2027-06-30",
+      text: "30th June 2027"
+    },
+    {
+      title: "Camera-ready Paper Submission Deadline",
+      date: "2027-07-31",
+      text: "31st July 2027"
+    },
+    {
+      title: "Early Bird Registration Deadline",
+      date: "2027-08-15",
+      text: "15th August 2027"
+    },
+    {
+      title: "Final Registration Deadline",
+      date: "2027-09-30",
+      text: "30th September 2027"
+    },
+    {
+      title: "Late Fee Registration Deadline",
+      date: "2027-10-10",
+      text: "10th October 2027"
+    },
+    {
+      title: "Pre-conference Tutorials Registration Deadline",
+      date: "2027-11-15",
+      text: "15th November 2027"
+    },
+    {
+      title: "Conference Date",
+      date: "2027-12-17 to 2027-12-18",
+      text: "17th and 18th December 2027"
+    },
+  ];
+
+  const [currentDate, setCurrentDate] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentDate(new Date());
+    }, 1000 * 60 * 60 * 24);
+
+    return () => clearInterval(timer);
+  }, []);
+
+
   return (
     <div className=" absolute top-[600px] text-center lg:px-20 lg:py-5 sm:p-5 my-5  flex flex-col justify-center">
       <div>
@@ -73,14 +73,14 @@ export default function About() {
           We are delighted to inform the upcoming International Conference on{" "}
           <span className=" font-semibold">
             Advances in Engineering and Computing Technologies for Sustainable
-            Development (AECTSD 2025){" "}
+            Development (AECTSD 2027){" "}
           </span>{" "}
           is organized by the Department of Electrical and Electronics
           Engineering, Electronics and Communication Engineering, Electronics
           and Instrumentation, Biomedical Engineering, Computer Science
           Engineering and Information Technology of Sri Ramakrishna Engineering
           College, Coimbatore, Tamilnadu, India during{" "}
-          <span className=" font-semibold"> 11th to 13th December 2025.</span>{" "}
+          <span className=" font-semibold"> 17th and 18th December 2027.</span>{" "}
           This technical co-sponsor for this conference is IEEE Madras Section.
           This interdisciplinary conference provides a dynamic platform for
           students, academicians, researchers, and industry professionals from
@@ -98,35 +98,33 @@ export default function About() {
         </p>
       </div>
 
-     {/* Timeline Starts */}
-     <div className="flex justify-center flex-col gap-10 mb-20 items-center my-5">
+      {/* Timeline Starts */}
+      <div className="flex justify-center flex-col gap-10 mb-20 items-center my-5">
         <h3 className="sm:text-4xl text-2xl text-gray-700 font-bold mb-6 ml-3">
           Important Dates
         </h3>
 
         <ol>
-        {announcements.map((announcement, index) => {
-      const eventDate = new Date(announcement.date);
-      const isHighlighted = eventDate <= currentDate;
-      let isDateHighlighted = isHighlighted;
+          {announcements.map((announcement, index) => {
+            const eventDate = new Date(announcement.date);
+            const isHighlighted = eventDate <= currentDate;
+            let isDateHighlighted = isHighlighted;
 
-      if (index === 0 && !isHighlighted && announcements.every((a, idx) => idx !== 0 && new Date(a.date) > currentDate)) {
-        isDateHighlighted = true;
-      }
+            if (index === 0 && !isHighlighted && announcements.every((a, idx) => idx !== 0 && new Date(a.date) > currentDate)) {
+              isDateHighlighted = true;
+            }
 
-      return (
-        <li
-          key={index}
-          className={`border-l-2 ${
-            isDateHighlighted ? "border-primary-blue" : "border-gray-300"
-          }`}
-        >
-          <div className="md:flex flex-start">
-            <div
-              className={`${
-                isDateHighlighted ? "bg-primary-blue" : "bg-gray-400"
-              } w-6 h-6 flex items-center justify-center rounded-full -ml-3.5`}
-            >
+            return (
+              <li
+                key={index}
+                className={`border-l-2 ${isDateHighlighted ? "border-primary-blue" : "border-gray-300"
+                  }`}
+              >
+                <div className="md:flex flex-start">
+                  <div
+                    className={`${isDateHighlighted ? "bg-primary-blue" : "bg-gray-400"
+                      } w-6 h-6 flex items-center justify-center rounded-full -ml-3.5`}
+                  >
                     <svg
                       aria-hidden="true"
                       focusable="false"

@@ -15,7 +15,7 @@ export default function RegistrationGuidelines() {
             proceedings and published through IEEE Xplore (Scopus Indexed).
           </p>
           <p className="  text-lg sm:text-xl text-red-500 font-medium">
-            All accepted and presented papers of AECTSD 2025 will be submitted
+            All accepted and presented papers of AECTSD 2027 will be submitted
             for possible publication in the IEEE Xplore® Digital Library.
           </p>
           <p className="  text-lg sm:text-xl">
@@ -32,7 +32,7 @@ export default function RegistrationGuidelines() {
             nearby places.
           </p>
           <p className="  text-lg sm:text-xl">
-          A fee of Rs. 500 will be applied for each additional page (with a
+            A fee of Rs. 500 will be applied for each additional page (with a
             maximum of 2 pages).
           </p>
         </div>
@@ -186,30 +186,30 @@ export default function RegistrationGuidelines() {
         </div>
 
         <div className=" sm:mx-auto mx-5  sm:max-w-xl lg:max-w-3xl xl:max-w-7xl gap-5 flex flex-col justify-center  text-justify">
-            
-        <div className=" ">
-          <p className="  text-lg sm:text-xl font-semibold">*Early Bird Registration</p>
-          <div className=" my-3 sm:text-lg">
-            <p>
-              1. Discount of INR 1000 on the conference and conference plus
+
+          <div className=" ">
+            <p className="  text-lg sm:text-xl font-semibold">*Early Bird Registration</p>
+            <div className=" my-3 sm:text-lg">
+              <p>
+                1. Discount of INR 1000 on the conference and conference plus
+                tutorial registration fee.
+              </p>
+              <p>2. Discount of INR 500 on the Indian non-author attendee fee</p>
+            </div>
+          </div>
+
+          <div>
+            <p className="   text-lg sm:text-xl font-semibold">*Late Registration Fee</p>
+            <p className=" my-3 sm:text-lg">
+              Additional fee of INR 1000 on the conference and conference plus
               tutorial registration fee.
             </p>
-            <p>2. Discount of INR 500 on the Indian non-author attendee fee</p>
           </div>
-        </div>
 
-        <div>
-          <p className="   text-lg sm:text-xl font-semibold">*Late Registration Fee</p>
-          <p className=" my-3 sm:text-lg">
-            Additional fee of INR 1000 on the conference and conference plus
-            tutorial registration fee.
-          </p>
-        </div>
-
-        <div>
-          <p className="   text-lg sm:text-xl font-semibold">Virtual Mode</p>
-          <p className="my-3 text-lg">Additional fee of INR 1000 on the conference registration fee.</p>
-        </div>
+          <div>
+            <p className="   text-lg sm:text-xl font-semibold">Virtual Mode</p>
+            <p className="my-3 text-lg">Additional fee of INR 1000 on the conference registration fee.</p>
+          </div>
         </div>
 
         <div className="flex justify-center items-center py-10">
@@ -346,27 +346,27 @@ export default function RegistrationGuidelines() {
         <div className="  sm:mx-auto mx-5  sm:max-w-xl lg:max-w-3xl xl:max-w-7xl gap-5 flex flex-col justify-center  mb-20  text-justify">
 
 
-        <div className=''>
-          <p className=" text-lg sm:text-xl font-semibold ">*Early-Bird Registration</p>
-          <p className=" my-3 sm:text-lg">
-            Discount of USD 25 on the conference and conference plus tutorial
-            registration fee.
-          </p>
-        </div>
-        <div>
-          <p className="  text-lg sm:text-xl font-semibold">*Late Registration fee:</p>
-          <p className=" my-3 sm:text-lg">
-            Additional fee of USD 25 on the conference and conference plus
-            tutorial registration fee.
-          </p>
-        </div>
-        <div>
-          <p className="  text-lg sm:text-xl font-semibold">Virtual Mode</p>
-          <p className=" my-3 sm:text-lg">Additional fee of USD 25 on the conference registration fee.</p>
+          <div className=''>
+            <p className=" text-lg sm:text-xl font-semibold ">*Early-Bird Registration</p>
+            <p className=" my-3 sm:text-lg">
+              Discount of USD 25 on the conference and conference plus tutorial
+              registration fee.
+            </p>
+          </div>
+          <div>
+            <p className="  text-lg sm:text-xl font-semibold">*Late Registration fee:</p>
+            <p className=" my-3 sm:text-lg">
+              Additional fee of USD 25 on the conference and conference plus
+              tutorial registration fee.
+            </p>
+          </div>
+          <div>
+            <p className="  text-lg sm:text-xl font-semibold">Virtual Mode</p>
+            <p className=" my-3 sm:text-lg">Additional fee of USD 25 on the conference registration fee.</p>
+          </div>
         </div>
       </div>
-        </div>
-        <Footer />
+      <Footer />
     </main>
   );
 }

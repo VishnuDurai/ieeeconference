@@ -19,24 +19,13 @@ export default function Organizing() {
           <Headings text={"Chief Parton"} />
           <div className="my-10 grid lg:grid-cols-2  justify-center items-center place-self-center gap-20">
             <CommitteContainer
-              name={"Thiru. R. Sundar"}
+              name={"Dr. Sundar Ramakrishnan"}
               designation={"Managing Trustee"}
               dept={"SNR Sons Charitable Trust, Coimbatore"}
             />
             <CommitteContainer
               name={"Thiru. S. Narendran"}
               designation={"Joint Managing Trustee"}
-              dept={"SNR Sons Charitable Trust, Coimbatore"}
-            />
-          </div>
-        </div>
-
-        <div className=" my-10">
-          <Headings text={"Parton"} />
-          <div className=" my-10">
-            <CommitteContainer
-              name={"Dr. N. R. Alamelu"}
-              designation={"Director (Academics)"}
               dept={"SNR Sons Charitable Trust, Coimbatore"}
             />
           </div>
@@ -53,8 +42,18 @@ export default function Organizing() {
               dept={"Sri Ramakrishna Engineering College"}
             />
             <CommitteContainer
-              name={"Dr. K. Porkumaran"}
+              name={"Dr. P. Sakthivel"}
               designation={"Chairman"}
+              dept={"IEEE Madras Section"}
+            />
+            <CommitteContainer
+              name={"Dr. S. Radha"}
+              designation={"Secretary"}
+              dept={"IEEE Madras Section"}
+            />
+            <CommitteContainer
+              name={"Dr. S. Brindha"}
+              designation={"Treasurer"}
               dept={"IEEE Madras Section"}
             />
           </div>
@@ -64,9 +63,9 @@ export default function Organizing() {
           <Headings text={"Conference Chair"} />
           <div className=" my-10">
             <CommitteContainer
-              name={"Dr. R. Shanmugasundaram"}
+              name={"Dr. V. Karpagam"}
               designation={"Organizing Secretary"}
-              dept={"Professor - EEE"}
+              dept={"Professor & Head - AI&DS"}
             />
           </div>
         </div>
@@ -77,8 +76,8 @@ export default function Organizing() {
           <Headings text={"Session Chair"} />
           <div className=" my-10 items-center place-self-center flex justify-center">
             <CommitteContainer
-              name={"Dr. N. Sathish Kumar"}
-              dept={"Professor - ECE"}
+              name={"Dr. R. Kingsy Grace"}
+              dept={"Professor - AI&DS"}
             />
           </div>
 
@@ -101,7 +100,7 @@ export default function Organizing() {
               />
               <CommitteContainer
                 name={"Dr. J. Selva Kumar"}
-                dept={"Professor - CSE"}
+                dept={"Professor - M.Tech CSE"}
               />
               <CommitteContainer
                 name={"Mrs. R. Rajalakshmi"}
@@ -118,11 +117,11 @@ export default function Organizing() {
         <div className=" h-[1px] w-4/5 bg-black "></div>
 
         <div className=" my-10">
-          <Headings text={"Finance Chair"} />
+          <Headings text={"Program and Finance Chair"} />
           <div className=" my-10 items-center place-self-center flex justify-center">
             <CommitteContainer
               name={"Dr. K. Balamurugan"}
-              designation={"Joint-Organizing Secretary"}
+              //designation={"Joint-Organizing Secretary"}
               dept={"Asso. Prof - EEE"}
             />
           </div>
@@ -131,8 +130,8 @@ export default function Organizing() {
           <div className=" flex flex-col my-10 gap-10">
             <div className=" grid lg:grid-cols-1 place-self-center justify-center items-center xl:grid-cols-1 gap-10">
               <CommitteContainer
-                name={"Mr. C. Praveenkumar"}
-                dept={"Asst. Prof. (Sl.g) - ECE"}
+                name={"Dr. C. Praveenkumar"}
+                dept={"Asst. Prof. (Sl.Gr) - EEE"}
               />
             </div>
           </div>
@@ -144,23 +143,15 @@ export default function Organizing() {
           <Headings text={"Publication Chair"} />
           <div className=" my-10 items-center place-self-center flex justify-center">
             <CommitteContainer
-              name={"Dr. V. Rukkumani"}
-              dept={"Asso. Professor - EIE"}
+              name={"Mrs. S. Jansi Rani"}
+              dept={"Asst. Prof. (Sl.Gr) - IT"}
             />
           </div>
 
           <Headings text={"Members"} />
           <div className=" flex flex-col my-10 gap-10">
             <div className=" grid lg:grid-cols-2 justify-center items-center place-self-center xl:grid-cols-3 gap-10">
-              <CommitteContainer
-                name={"Mr. R. Santhoshkumar"}
-                dept={"Asst. Prof. - EEE"}
-              />
 
-              <CommitteContainer
-                name={"Dr. M. Priyadharshini"}
-                dept={"Asst. Prof. - ECE"}
-              />
 
               <CommitteContainer
                 name={"Mr. I. Aravindaguru"}
@@ -217,8 +208,8 @@ export default function Organizing() {
           <Headings text={"Registration Chair"} />
           <div className=" my-10 items-center flex justify-center">
             <CommitteContainer
-              name={"Mrs. S. Jansi Rani"}
-              dept={"Asst. Prof. (Sl.G) - IT"}
+              name={"Dr. V. Radhika"}
+              dept={"Asso. Prof. - BME"}
             />
           </div>
 
@@ -261,8 +252,8 @@ export default function Organizing() {
           <Headings text={"Conference Pre-Tutorial Sessions Chair"} />
           <div className=" my-10 items-center flex justify-center">
             <CommitteContainer
-              name={"Dr. S. P. Vimal"}
-              dept={"Asso. Prof. - ECE"}
+              name={"Dr. C. Praveen Kumar"}
+              dept={"Asst. Prof. (Sl.Gr) - EEE"}
             />
           </div>
 
@@ -293,8 +284,8 @@ export default function Organizing() {
           <Headings text={"Technical Review Committee"} />
           <div className=" my-10 items-center flex justify-center">
             <CommitteContainer
-              name={"Dr. R. Shanmugasundaram (Convener)"}
-              dept={"Professor - EEE"}
+              name={"Dr. V. Karpagam (Convener)"}
+              dept={"Professor & Head - AI&DS"}
             />
           </div>
 
@@ -302,43 +293,28 @@ export default function Organizing() {
           <div className=" flex flex-col my-10 gap-10">
             <div className=" grid lg:grid-cols-2 justify-center items-center place-self-center xl:grid-cols-3 gap-10">
               <CommitteContainer
-                name={"Dr. K. Balamurugan"}
-                dept={"Asso. Prof. - EEE"}
+                name={"Dr. V. Rukkumani"}
+                dept={"Asso. Prof. - EIE"}
               />
 
               <CommitteContainer
-                name={"Mr. R. Mohan Kumar"}
+                name={"Dr. M. Kasi Selvanathan"}
+                dept={"Asso. Prof. - ECE"}
+              />
+
+              <CommitteContainer
+                name={"Dr. K. Balachander"}
                 dept={"Asst. Prof. (Sl.G) - EEE"}
               />
 
               <CommitteContainer
-                name={"Mr. B. Sridhar"}
-                dept={"Asst. Prof. (Sl.G) - EEE"}
+                name={"Dr. J. Anitha"}
+                dept={"Proffessor  - AI&DS"}
               />
 
               <CommitteContainer
-                name={"Dr. M. Kasiselvanathan"}
-                dept={"Asso. Prof.  - ECE"}
-              />
-
-              <CommitteContainer
-                name={"Mr. C. Mathan"}
-                dept={"Asst. Prof. (Sr. G) - EIE"}
-              />
-
-              <CommitteContainer
-                name={"Dr. P. Mathiyalagan"}
+                name={"Dr. B. Mathivanan"}
                 dept={"Asso. Prof. - CSE"}
-              />
-
-              <CommitteContainer
-                name={"Mrs. S. S. Sugantha Mallika"}
-                dept={"Asst. Prof. (Sl.G) - IT"}
-              />
-
-              <CommitteContainer
-                name={"Dr. M. Jeevitha Priya"}
-                dept={"Asst. Prof. - BME"}
               />
             </div>
           </div>
@@ -350,8 +326,8 @@ export default function Organizing() {
           <Headings text={"Outreach and Promotion Committee"} />
           <div className=" my-10 items-center flex justify-center">
             <CommitteContainer
-              name={"Dr. M. S. Geetha Devasena (Convener)"}
-              dept={"Professor - CSE"}
+              name={"Dr. V. Rukkumani (Convener)"}
+              dept={"Asso. Prof. - EIE"}
             />
           </div>
 
@@ -360,26 +336,7 @@ export default function Organizing() {
             <div className=" grid lg:grid-cols-2 justify-center items-center place-self-center xl:grid-cols-3 gap-10">
               <CommitteContainer
                 name={"Dr. M. Kalaiarasu"}
-                dept={"Asso. Prof. - IT"}
-              />
-
-              <CommitteContainer
-                name={"Dr. R. Kingsy Grace"}
-                dept={"Asso. Prof. - CSE"}
-              />
-
-              <CommitteContainer
-                name={"Dr. R. Vijaya Kumar"}
-                dept={"Asst. Prof. (Sl.G) - CSE"}
-              />
-
-              <CommitteContainer
-                name={"Mr. C. Praveenkumar, AP(Sl.G) - EEE"}
-                dept={"Asst. Prof. (Sr.G) - EEE"}
-              />
-              <CommitteContainer
-                name={"Mrs. R.S. Ramya"}
-                dept={"Asst. Prof. (Sr.G) - CSE"}
+                dept={"Professor - IT"}
               />
             </div>
           </div>
@@ -391,8 +348,8 @@ export default function Organizing() {
           <Headings text={"Website and Social Media Promotion Committee"} />
           <div className=" my-10 items-center flex justify-center">
             <CommitteContainer
-              name={"Dr. S. Harihara Gopalan"}
-              dept={"Asso. Prof. - CSE"}
+              name={"Mr. R. S. Vishnu Durai"}
+              dept={"Asst. Prof. (Sl.Gr) - AI&DS"}
             />
           </div>
 
@@ -405,13 +362,8 @@ export default function Organizing() {
               />
 
               <CommitteContainer
-                name={"Mr. R. S. Vishnudurai"}
-                dept={"Asst. Prof. (Sr.G) - CSE"}
-              />
-
-              <CommitteContainer
-                name={"Dr. A. Vijay"}
-                dept={"Asst. Prof. (Sr. G) - ECE"}
+                name={"Mr. G. Narendran"}
+                dept={"Asst. Prof. (Sl.Gr) - IT"}
               />
             </div>
           </div>
@@ -431,10 +383,6 @@ export default function Organizing() {
           <Headings text={"Members"} />
           <div className=" flex flex-col my-10 gap-10">
             <div className=" grid lg:grid-cols-2 justify-center items-center place-self-center xl:grid-cols-3 gap-10">
-              <CommitteContainer
-                name={"Dr. B. Mathivanan"}
-                dept={"Asso. Prof. - CSE"}
-              />
 
               <CommitteContainer
                 name={"Dr. M. Nagarajapandian"}
@@ -447,14 +395,11 @@ export default function Organizing() {
               />
 
               <CommitteContainer
-                name={"Dr. N. Suresh Kumar"}
-                dept={"Asso. Prof. - IT"}
+                name={"Dr. M. Logaprakash"}
+                dept={"Asst. Prof. (Sl.G) - AI&DS"}
               />
 
-              <CommitteContainer
-                name={"Dr. P. Sebastian Vindro Jude"}
-                dept={"Asst. Prof. (Sl.G) - EEE"}
-              />
+
             </div>
           </div>
         </div>

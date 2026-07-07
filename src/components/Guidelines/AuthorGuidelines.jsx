@@ -5,48 +5,48 @@ export default function AuthorGuidelines() {
   const announcements = [
     {
       title: "Call for Papers",
-      date: "2024-11-15",
-      text: "15th December 2024",
+      date: "2026-11-15",
+      text: "15th December 2026",
     },
     {
       title: "Paper Submission Deadline",
-      date: "2025-04-30",
-      text: "30th April 2025",
+      date: "2027-04-30",
+      text: "30th April 2027",
     },
     {
       title: "Paper Acceptance Notification",
-      date: "2025-06-30",
-      text: "30th June 2025",
+      date: "2027-06-30",
+      text: "30th June 2027",
     },
     {
       title: "Camera-ready Paper Submission Deadline",
-      date: "2025-07-31",
-      text: "31st July 2025",
+      date: "2027-07-31",
+      text: "31st July 2027",
     },
     {
       title: "Early Bird Registration Deadline",
-      date: "2025-08-15",
-      text: "15th August 2025",
+      date: "2027-08-15",
+      text: "15th August 2027",
     },
     {
       title: "Final Registration Deadline",
-      date: "2025-09-30",
-      text: "30th September 2025",
+      date: "2027-09-30",
+      text: "30th September 2027",
     },
     {
       title: "Late Fee Registration Deadline",
-      date: "2025-10-10",
-      text: "10th October 2025",
+      date: "2027-10-10",
+      text: "10th October 2027",
     },
     {
       title: "Pre-conference Tutorials Registration",
-      date: "2025-11-15",
-      text: "15th November 2025",
+      date: "2027-11-15",
+      text: "15th November 2027",
     },
     {
       title: "Conference Date",
-      date: "2025-12-11 to 2025-12-13",
-      text: "11th to 13th December 2025",
+      date: "2025-12-17 and 2025-12-18",
+      text: "17th and 18th December 2027",
     },
   ];
 
@@ -89,30 +89,26 @@ export default function AuthorGuidelines() {
               return (
                 <li
                   key={index}
-                  className={`border-l-4 ${
-                    isHighlighted ? "border-blue-500" : "border-gray-300"
-                  } pl-4 py-3 `}
+                  className={`border-l-4 ${isHighlighted ? "border-blue-500" : "border-gray-300"
+                    } pl-4 py-3 `}
                 >
                   <div className="flex items-center">
                     <div
-                      className={`${
-                        isHighlighted ? "bg-blue-500" : "bg-gray-400"
-                      } w-6 h-6 rounded-full flex items-center justify-center  -ml-8`}
+                      className={`${isHighlighted ? "bg-blue-500" : "bg-gray-400"
+                        } w-6 h-6 rounded-full flex items-center justify-center  -ml-8`}
                     >
                       <span className="text-white font-bold text-[8px]">✔</span>
                     </div>
                     <div className="ml-6">
                       <h3
-                        className={`text-lg ${
-                          isHighlighted ? "text-blue-500" : "text-gray-700"
-                        } font-semibold`}
+                        className={`text-lg ${isHighlighted ? "text-blue-500" : "text-gray-700"
+                          } font-semibold`}
                       >
                         {announcement.title}
                       </h3>
                       <p
-                        className={`${
-                          isHighlighted ? "text-blue-400" : "text-gray-500"
-                        } font-medium`}
+                        className={`${isHighlighted ? "text-blue-400" : "text-gray-500"
+                          } font-medium`}
                       >
                         {announcement.text}
                       </p>
