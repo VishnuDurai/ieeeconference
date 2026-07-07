@@ -27,9 +27,12 @@ export default function ConferenceVenue() {
 
           <div className="w-full xl:w-3/5">
             <iframe
+              title="Sri Ramakrishna Engineering College Location on Google Maps"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4939.829255974464!2d76.96318737593022!3d11.101540753111017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f7000afa766b%3A0x2b5757b8d520a3af!2sSri%20Ramakrishna%20Engineering%20College!5e1!3m2!1sen!2sin!4v1733458498653!5m2!1sen!2sin"
               className="border-0 w-full xl:w-[700px] h-[400px]"
               loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>

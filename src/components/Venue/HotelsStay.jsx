@@ -68,7 +68,7 @@ export default function HotelStay() {
             name={"Hotel KISCOL Grands, Ramnagar, Coimbatore"}
             img={"/assets/hotels/kiscol.jpeg"}
           />
-        
+
           <TouristContainer
             name={"Rathna Residency, Town Hall, Coimbatore"}
             img={"/assets/hotels/rathna.avif"}
@@ -77,7 +77,7 @@ export default function HotelStay() {
             name={"Hotel Vijay Park Inn, Ramnagar, Coimbatore"}
             img={"/assets/hotels/vijay.jpg"}
           />
-         
+
         </div>
       </div>
 
@@ -99,7 +99,14 @@ export default function HotelStay() {
         </div>
       </div>
 
-      <p className=" text-center text-lg px-3">For more hotels, visit <a className=" text-primary-blue hover:underline underline-offset-2 font-semibold" href="https://shorturl.at/VgNzo" target="_blank">here</a></p>
+      <p className=" text-center text-lg px-3">For more hotels, visit <a
+        className="text-primary-blue hover:underline underline-offset-2 font-semibold"
+        href="https://shorturl.at/VgNzo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        here
+      </a></p>
 
       <Footer />
     </main>
